@@ -119,23 +119,23 @@
 
 
         if(sintM==3){
-          document.write("Usted presenta los síntomas más comunes en pacientes con Covid-19 (Fiebre, tos seca, cansancio)," + "<br>" +"se recomienda acudir a su médico más cercano para un resultado más detallado."+ "<br>" + "<br>" +"Evite automedicarse, se sugiere siga las recomendaciones de la Secretaria de Salud.");
+          document.write("Usted presenta los síntomas más comunes en pacientes con Covid-19 (Fiebre, tos seca, cansancio)," + "<br>" +"se recomienda acudir a su médico más cercano para un resultado más detallado."+ "<br>" + "<br>" +"Evite automedicarse.");
         }
 
         else if(sintM2==6){
-            document.write("Usted presenta dificultades para hablar o moverse, " + "<br>" +"se sugiere que de inmediato acuda a su médico más cercano."+ "<br>" + "<br>" +"Evite automedicarse, se sugiere siga las recomendaciones de la Secretaria de Salud.");
+            document.write("Usted presenta dificultades para hablar o moverse, " + "<br>" +"se sugiere que de inmediato acuda a su médico más cercano."+ "<br>" + "<br>" +"Evite automedicarse.");
         }
 
         else if(sint>=5){
-          document.write("Usted presenta "+sint+" sintomas relacionados con Covid-19, " + "<br>" +"se recomienda acudir a su médico más cercano para un resultado más detallado."+ "<br>" + "<br>" +"Evite automedicarse, se sugiere siga las recomendaciones de la Secretaria de Salud.");
+          document.write("Usted presenta "+sint+" sintomas relacionados con Covid-19. ");
         }
 
         else if(sint<5 && sint>0 && sintM != 3 || sintM3<3 && sintM3>0){
-          document.write("La posibilidad de contraer Covid-19 es muy baja"+ "<br>"+ "<br>"  +"Evite automedicarse, se sugiere siga las recomendaciones de la Secretaria de Salud.");
+          document.write("La posibilidad de contraer Covid-19 es muy baja"+ "<br>"+ "<br>"  +"Evite automedicarse.");
         }
 
         else{
-          document.write("Usted se encuentra bien de salud"+ "<br>" + "<br>" +"Evite automedicarse, se sugiere siga las recomendaciones de la Secretaria de Salud.");
+          document.write("Usted se encuentra bien de salud"+ "<br>" + "<br>" +"Evite automedicarse.");
         }
 
         </script>
