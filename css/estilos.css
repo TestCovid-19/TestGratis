@@ -37,6 +37,46 @@
   font-size: 18px;
 }
 
+#resulgif{
+  width: 180px;
+  height: 180px;
+  margin-left: 500px;
+  margin-top: -190px;
+}
+
+#resulgif2{
+  width: 200px;
+  height: 200px;
+  margin-left: 500px;
+  margin-top: -110px;
+}
+
+#resulgif3{
+  width: 200px;
+  height: 200px;
+  margin-left: 500px;
+  margin-top: -110px;
+}
+
+.resultp2{
+  width: 400px;
+  height: 100px;
+  margin-top: -20px;
+  font-size:21px;
+}
+
+.resultp3{
+  width: 400px;
+  height: 100px;
+  margin-top: -20px;
+  font-size:21px;
+}
+
+.resultp{
+  width: 380px;
+  height: 180px;
+}
+
 input[type=text]{
   border-radius: 20px;
   width: 150px;
